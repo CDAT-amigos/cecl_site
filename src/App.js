@@ -1,7 +1,17 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.css'
+import ReactGA from 'react-ga'
+/*function initializeReactGA() {
+  ReactGA.initialize('UA-123791717-1')///change
+  ReactGA.pageview('/homepage');
+}*/
+/**
+ * ReactGA.event({
+  category: 'User',
+  action: 'Create an Account'
+})
+ */
 class App extends Component {
   render() {
     return (

@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - "node"
+  - "lts/*"
+
+cache:
+  directories:
+  - node_modules
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+
+deploy:
+  - provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local_dir: build
+    on:
+      repo: CDAT-amigos/cecl_site
+      branch: master
