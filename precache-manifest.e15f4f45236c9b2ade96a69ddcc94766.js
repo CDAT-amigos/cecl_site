@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "e64cae63a0678d4f09ea",
-    "url": "/cecl_site/static/css/main.59b0b34c.chunk.css"
+    "revision": "a07b62045cc900e6e177",
+    "url": "/cecl_site/static/css/main.3a61837a.chunk.css"
   },
   {
-    "revision": "e64cae63a0678d4f09ea",
-    "url": "/cecl_site/static/js/main.e64cae63.chunk.js"
+    "revision": "a07b62045cc900e6e177",
+    "url": "/cecl_site/static/js/main.a07b6204.chunk.js"
   },
   {
-    "revision": "db082935e66ffbbab4f6",
-    "url": "/cecl_site/static/css/1.8a420d33.chunk.css"
+    "revision": "3729aea1aba7b5482d5d",
+    "url": "/cecl_site/static/css/1.4ff21fe7.chunk.css"
   },
   {
-    "revision": "db082935e66ffbbab4f6",
-    "url": "/cecl_site/static/js/1.db082935.chunk.js"
+    "revision": "3729aea1aba7b5482d5d",
+    "url": "/cecl_site/static/js/1.3729aea1.chunk.js"
   },
   {
     "revision": "9e8688ef376b55ed962e",
@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/cecl_site/static/media/montserrat-latin-100italic.d1f3f2d0.woff"
   },
   {
-    "revision": "444ae007121264bc1969d49b4031f9b2",
-    "url": "/cecl_site/static/media/montserrat-latin-200.444ae007.woff2"
-  },
-  {
     "revision": "edbce16a90aa22c297a0307b85789837",
     "url": "/cecl_site/static/media/montserrat-latin-200.edbce16a.woff"
+  },
+  {
+    "revision": "444ae007121264bc1969d49b4031f9b2",
+    "url": "/cecl_site/static/media/montserrat-latin-200.444ae007.woff2"
   },
   {
     "revision": "f316c5d1ec40f3e68654c3f38b3999f3",
@@ -108,6 +108,10 @@ self.__precacheManifest = [
     "url": "/cecl_site/static/media/montserrat-latin-600.f6dc6096.woff"
   },
   {
+    "revision": "15c24f7109941777774ddd2c636c6a50",
+    "url": "/cecl_site/static/media/montserrat-latin-600.15c24f71.woff2"
+  },
+  {
     "revision": "6d10b80529d5c36c7c09fca7193af0fc",
     "url": "/cecl_site/static/media/montserrat-latin-600italic.6d10b805.woff2"
   },
@@ -116,20 +120,16 @@ self.__precacheManifest = [
     "url": "/cecl_site/static/media/montserrat-latin-600italic.02c48333.woff"
   },
   {
-    "revision": "15c24f7109941777774ddd2c636c6a50",
-    "url": "/cecl_site/static/media/montserrat-latin-600.15c24f71.woff2"
-  },
-  {
     "revision": "79982cd1f74c6fa7451bf9b37ead09ff",
     "url": "/cecl_site/static/media/montserrat-latin-700.79982cd1.woff2"
   },
   {
-    "revision": "283438e9577fe6a684466bb100e105ec",
-    "url": "/cecl_site/static/media/montserrat-latin-700italic.283438e9.woff2"
-  },
-  {
     "revision": "957e93fbbe131a59791cd820d98b7109",
     "url": "/cecl_site/static/media/montserrat-latin-700.957e93fb.woff"
+  },
+  {
+    "revision": "283438e9577fe6a684466bb100e105ec",
+    "url": "/cecl_site/static/media/montserrat-latin-700italic.283438e9.woff2"
   },
   {
     "revision": "ca627c5ccc65cf80c2ecaea44b997de9",
@@ -176,7 +176,7 @@ self.__precacheManifest = [
     "url": "/cecl_site/static/media/abril-fatface-latin-400.6c423bb0.woff"
   },
   {
-    "revision": "283bc25725feec72cfaa4a9634a549a2",
+    "revision": "c1ea5d32d75069b2964f807c7a8eead0",
     "url": "/cecl_site/index.html"
   }
 ];
