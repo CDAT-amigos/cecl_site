@@ -1,32 +1,43 @@
-.App {
-  text-align: center;
+* {
+  font-family: 'Montserrat', sans-serif;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.brandText {
+  font-family: 'Abril Fatface', cursive;
 }
-
-.App-header {
-  background-color: #282c34;
+.fullBg {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.placeholderImg {
+  background-color: whitesmoke;
+  min-height: 200px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.transparentWhite {
+  background-color: RGBA(255, 255, 255, .95)
+}
+.bottomMargin{
+  margin-bottom: 20px
+}
+#top {
+  padding: 25% 0 25% 0;
+  background-color: silver;
+  /* Need to find or make a cheesy background picture */
+}
+#about {
+  padding: 10% 0 10% 0;
+  background-color: black;
+  color: silver
+}
+#about h2 {
+  color: white
+}
+#team {
+  padding: 10% 0 10% 0;
+  background-color: silver;
+}
+footer {
+  font-size: .8rem;
+  padding: 5% 0 10% 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+  color: dimgrey;
 }

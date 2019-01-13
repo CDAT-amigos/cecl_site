@@ -4,11 +4,16 @@
   "private": true,
   "homepage": "https://CDAT-amigos.github.io/cecl_site",
   "dependencies": {
+    "bootstrap": "^4.2.1",
     "gh-pages": "^2.0.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "prop-types": "^15.6.2",
+    "react": "16.8.0-alpha.0",
+    "react-dom": "16.8.0-alpha.0",
     "react-ga": "^2.5.6",
-    "react-scripts": "2.1.3"
+    "react-scripts": "2.1.3",
+    "reactstrap": "^7.0.2",
+    "typeface-abril-fatface": "0.0.54",
+    "typeface-montserrat": "0.0.54"
   },
   "scripts": {
     "predeploy": "npm run build",
