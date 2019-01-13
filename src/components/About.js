@@ -2,6 +2,7 @@ import { Container, Row, Col, Button} from 'reactstrap'
 import React from 'react'
 import FullPage from './FullPage'
 import PropTypes from 'prop-types'
+import {Link} from 'react-router-dom'
 const About=()=>(
 <FullPage id="about">
     <Container >
@@ -11,15 +12,15 @@ const About=()=>(
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat orci a dolor luctus, eu ultricies velit aliquam. Pellentesque volutpat non ligula eu porttitor. Quisque posuere blandit nisi. Curabitur aliquet tempus ex sit amet auctor. Etiam sit amet tellus aliquet, pulvinar sem id, fringilla lorem. Maecenas volutpat tellus a velit pharetra, vitae congue nisi ultrices. Sed eget dui vitae erat elementum dignissim in vitae turpis. Praesent consectetur tincidunt libero, in commodo nisi. Pellentesque tempor nulla nec placerat elementum.</p>
             </Col>
             <Col xs={6}>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/F085WwMIWgM?rel=0" allowfullscreen title="what"></iframe>
+                <div className="embed-responsive embed-responsive-16by9">
+                    <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/F085WwMIWgM?rel=0" allowFullScreen title="what"></iframe>
                 </div>
             </Col>
         </Row>
         <Row className='bottomMargin'>
             <Col xs={6}>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-vtaJOoELo8?rel=0" allowfullscreen title="why"></iframe>
+                <div className="embed-responsive embed-responsive-16by9">
+                    <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/-vtaJOoELo8?rel=0" allowFullScreen title="why"></iframe>
                 </div>
             </Col>
             <Col xs={6}>
@@ -32,11 +33,11 @@ const About=()=>(
             <Col xs={6}>
                 <h2>How</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat orci a dolor luctus, eu ultricies velit aliquam. Pellentesque volutpat non ligula eu porttitor. Quisque posuere blandit nisi. Curabitur aliquet tempus ex sit amet auctor. Etiam sit amet tellus aliquet, pulvinar sem id, fringilla lorem. Maecenas volutpat tellus a velit pharetra, vitae congue nisi ultrices. Sed eget dui vitae erat elementum dignissim in vitae turpis. Praesent consectetur tincidunt libero, in commodo nisi. Pellentesque tempor nulla nec placerat elementum.</p>
-                <Button outline color="info">Sample Report</Button>
+                <Button outline color="info" tag={Link} to="/form">Sample Report</Button>
             </Col>
             <Col xs={6}>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/11s0bvPKQPc?rel=0" allowfullscreen title="how"></iframe>
+                <div className="embed-responsive embed-responsive-16by9">
+                    <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/11s0bvPKQPc?rel=0" allowFullScreen title="how"></iframe>
                 </div>
             </Col>
         </Row>
